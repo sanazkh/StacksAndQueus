@@ -8,7 +8,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        QueueViaStacks qvs = new QueueViaStacks();
+
+        // Uncomment to test
+      /*  QueueViaStacks qvs = new QueueViaStacks();
 
         SortStack ss = new SortStack();
 
@@ -42,7 +44,38 @@ public class Main {
         while(!res.isEmpty()){
             System.out.print(res.pop());
             System.out.print("**");
-        }
+        } */
+
+
+      // Uncomment to test
+   /*   StackImplementation si = new StackImplementation();
+        si.push(4);
+        si.push(5);
+        si.push(6);
+        si.push(1);
+      System.out.println(si.pop());
+        System.out.println(si.peek());
+        System.out.println(si.pop());
+        System.out.println(si.peek());
+        System.out.println(si.pop());
+        System.out.println(si.pop());
+        System.out.println(si.pop());
+        System.out.println(si.pop());
+        */
+
+
+    // Uncomment to test
+      /*  StackMin sm = new StackMin();
+        sm.push(5);
+        System.out.println();
+        System.out.println(sm.min());
+        sm.push(6);
+        System.out.println(sm.min());
+        sm.push(1);
+        System.out.println(sm.min());
+        */
+
+
 
     }
 }
